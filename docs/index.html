@@ -16,7 +16,12 @@
         toolbar: true,
         report: {
             dataSource: {
-                filename: "http://yugiohprices.com/api/rising_and_falling"
+                filename: $.getJSON('http://yugiohprices.com/api/card_sets', function(data) {
+});
+				
+				
+				
+				
             }
         }
     });
